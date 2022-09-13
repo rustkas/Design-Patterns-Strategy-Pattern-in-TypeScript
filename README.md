@@ -1,7 +1,7 @@
 # Design Patterns in TypeScript
 
 - [Chain of Responsibility Pattern](chain-of-responsibility)
-- [Strategy Pattern](strategy-pattern)
+- [Strategy Pattern](strategy)
 - [Template Method Pattern](template-method)
 
 ## How to start
