@@ -1,5 +1,5 @@
 {
-  "name": "strtegy_pattern",
+  "name": "strategy_pattern",
   "version": "1.0.0",
   "description": "Design Patterns: Strategy Pattern in TypeScript",
   "main": "index.js",
