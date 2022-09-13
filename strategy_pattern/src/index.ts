@@ -30,33 +30,19 @@ import { TwitterStrategy } from "./twitter_strategy";
 //     loginWithTwitter();
 //   }
 // }
-
 // function loginWithPassword(): void {
-
 // }
-
 // function loginWithEmail(): void {
-
 // }
-
 // function loginWithMobile() {
-
 // }
-
 // function loginWithGoogle() {
-
 // }
-
 // function loginWithFacebook() {
-
 // }
-
 // function loginWithApple() {
-
 // }
-
 // function loginWithTwitter() {
-
 // }
 
 const auth = new Authenticator();
