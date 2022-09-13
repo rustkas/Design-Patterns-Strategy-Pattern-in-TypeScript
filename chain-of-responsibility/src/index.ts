@@ -1,56 +1,13 @@
-import { Authenticator } from "./authenticator";
-import { LocalStrategy } from "./local_strategy";
-import { TwitterStrategy } from "./twitter_strategy";
+import { AuthMiddleware } from "./auth_middleware";
+import { LoggerMiddleware } from "./logger_middleware";
+import { Route } from "./route";
 
-// function login(mode) {
-//   if (mode === "account") {
-//     loginWithPassword();
-//   } else if (mode === "email") {
-//     loginWithEmail();
-//   } else if (mode === "mobile") {
-//     loginWithMobile();
-//   }
-// }
-
-
-// function login(mode:string) {
-//   if (mode === "account") {
-//     loginWithPassword();
-//   } else if (mode === "email") {
-//     loginWithEmail();
-//   } else if (mode === "mobile") {
-//     loginWithMobile();
-//   } else if (mode === "google") {
-//     loginWithGoogle();
-//   } else if (mode === "facebook") {
-//     loginWithFacebook();
-//   } else if (mode === "apple") {
-//     loginWithApple();
-//   } else if (mode === "twitter") {
-//     loginWithTwitter();
-//   }
-// }
-// function loginWithPassword(): void {
-// }
-// function loginWithEmail(): void {
-// }
-// function loginWithMobile() {
-// }
-// function loginWithGoogle() {
-// }
-// function loginWithFacebook() {
-// }
-// function loginWithApple() {
-// }
-// function loginWithTwitter() {
-// }
-
-const auth = new Authenticator();
-auth.use("twitter", new TwitterStrategy());
-auth.use("local", new LocalStrategy());
-
-function login(mode: string, ...args: any) {
-  return auth.authenticate(mode, args);
-}
-login("twitter", "123");
-login("local", "bytefer", "666");
+const route = new Route();
+route.use(new AuthMiddleware("bytefer", "666"))
+ .use(new LoggerMiddleware());
+route.get("/api/todos", (data) => {
+  console.log(JSON.stringify({ data }, null, 2));
+});
+route.get("/api/random", (data) => {
+  console.log(data);
+});

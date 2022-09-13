@@ -8,7 +8,15 @@
 > strategy_pattern@1.0.0 build
 > rimraf ./build && tsc
 
-
+Request url is: /api/todos
+{
+  "data": [
+    {
+      "title": "Learn Design Pattern"
+    }
+  ]
+}
+Request url is: /api/random
 ```
 
 
