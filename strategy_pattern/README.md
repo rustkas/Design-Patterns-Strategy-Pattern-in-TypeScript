@@ -5,7 +5,7 @@
 ```
 >npm run build && node build/index.js
 
-> strtegy_pattern@1.0.0 build
+> strategy_pattern@1.0.0 build
 > rimraf ./build && tsc
 
 Twitter account authentication failed!
