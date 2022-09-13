@@ -11,7 +11,6 @@ Add package for Markdown parsing: `npm install --save-dev marked`.
 
 Use `esno` to execute the parse-md.ts file: `npx esno src/parse-md.ts`.
 
-npm install --save-dev import-meta-resolve
 
 ```
 >nm run start
