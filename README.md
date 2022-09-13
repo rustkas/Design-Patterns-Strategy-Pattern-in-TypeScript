@@ -1,6 +1,6 @@
 # Design Patterns Strategy Pattern in TypeScript
 
-- Strategy Pattern
+- [Strategy Pattern](strtegy_pattern)
 
 ## How to start
  - Creat new project directory, for instance `mkdir strategy_pattern && cd strategy_pattern`
