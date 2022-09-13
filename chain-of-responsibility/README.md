@@ -1,4 +1,4 @@
-# Strategy pattern
+# Chain of Responsibility Pattern
 
 [The article](https://javascript.plainenglish.io/design-patterns-chain-of-responsibility-pattern-in-typescript-dba6bdffe456)
 

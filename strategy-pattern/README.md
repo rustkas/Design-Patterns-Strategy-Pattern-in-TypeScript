@@ -1,4 +1,4 @@
-# Strategy pattern
+# Strategy Pattern
 
 [The article](https://javascript.plainenglish.io/design-patterns-strategy-pattern-in-typescript-54eda9b40f09)
 
