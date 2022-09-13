@@ -1,3 +1,7 @@
+import { Authenticator } from "./authenticator";
+import { LocalStrategy } from "./local_strategy";
+import { TwitterStrategy } from "./twitter_strategy";
+
 // function login(mode) {
 //   if (mode === "account") {
 //     loginWithPassword();
@@ -8,9 +12,6 @@
 //   }
 // }
 
-import { Authenticator } from "./authenticator";
-import { LocalStrategy } from "./local_strategy";
-import { TwitterStrategy } from "./twitter_strategy";
 
 // function login(mode:string) {
 //   if (mode === "account") {
