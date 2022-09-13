@@ -3,7 +3,7 @@
 - [Strategy Pattern](strtegy_pattern)
 
 ## How to start
- - Creat new project directory, for instance `mkdir strategy_pattern && cd strategy_pattern`
+ - Creat new project directory. For instance `mkdir strategy_pattern && cd strategy_pattern`
  - Creat new project. Setup Node.js package.json `npm init -y`
  - Add TypeScript as a dev dependency `npm install typescript --save-dev`
 - Install ambient Node.js types for TypeScript `npm install @types/node --save-dev`
