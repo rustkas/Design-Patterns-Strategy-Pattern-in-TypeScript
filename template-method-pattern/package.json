@@ -1,5 +1,5 @@
 {
-  "name": "chain-of-responsibility",
+  "name": "template-method",
   "version": "1.0.0",
   "description": "Design Patterns: Template Method Pattern in TypeScript",
   "main": "index.js",
