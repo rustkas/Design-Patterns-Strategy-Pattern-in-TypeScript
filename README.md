@@ -2,7 +2,7 @@
 
 - [Chain of Responsibility Pattern](chain-of-responsibility)
 - [Strategy Pattern](strategy-pattern)
-- [Template Method Pattern](template-method-pattern)
+- [Template Method Pattern](template-method)
 
 ## How to start
 - Creat new project directory. For instance, `mkdir template-method-pattern && cd template-method-pattern`
