@@ -1,10 +1,11 @@
 # Design Patterns in TypeScript
 
 - [Chain of Responsibility Pattern](chain-of-responsibility)
-- [Strategy Pattern](strtegy-pattern)
+- [Strategy Pattern](strategy-pattern)
+- [Template Method Pattern](template-method-pattern)
 
 ## How to start
-- Creat new project directory. For instance, `mkdir chain-of-responsibility && cd chain-of-responsibility`
+- Creat new project directory. For instance, `mkdir template-method-pattern && cd template-method-pattern`
  - Creat new project. Setup Node.js package.json `npm init -y`
  - Add TypeScript as a dev dependency `npm install typescript --save-dev`
 - Install ambient Node.js types for TypeScript `npm install @types/node --save-dev`
