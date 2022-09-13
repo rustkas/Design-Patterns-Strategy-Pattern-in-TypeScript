@@ -1,4 +1,4 @@
-# Design Patterns Strategy Pattern in TypeScript
+# Design Patterns in TypeScript
 
 - [Strategy Pattern](strtegy_pattern)
 
