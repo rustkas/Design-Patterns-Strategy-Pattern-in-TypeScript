@@ -1,7 +1,7 @@
 {
   "name": "chain-of-responsibility",
   "version": "1.0.0",
-  "description": "Design Patterns: Chain of Responsibility Pattern in TypeScript",
+  "description": "Design Patterns: Template Method Pattern in TypeScript",
   "main": "index.js",
   "scripts": {
     "start": "npx esno src/index.ts"
