@@ -1,7 +1,7 @@
 {
   "name": "strtegy_pattern",
   "version": "1.0.0",
-  "description": "",
+  "description": "Design Patterns: Strategy Pattern in TypeScript",
   "main": "index.js",
   "scripts": {
     "start:dev": "nodemon",
