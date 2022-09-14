@@ -13,7 +13,7 @@ Use `esno` to execute the parse-md.ts file: `npx esno src/parse-md.ts`.
 
 
 ```
->nm run start
+> npm run start
 [
   { id: '1', Name: 'Bytefer' },
   { id: '2', Name: 'Kakuqo' },
