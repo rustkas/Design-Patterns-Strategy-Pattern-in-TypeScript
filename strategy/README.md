@@ -3,7 +3,7 @@
 [The article](https://javascript.plainenglish.io/design-patterns-strategy-pattern-in-typescript-54eda9b40f09)
 
 ```
->npm run build && node build/index.js
+> npm run build && node build/index.js
 
 > strategy_pattern@1.0.0 build
 > rimraf ./build && tsc
